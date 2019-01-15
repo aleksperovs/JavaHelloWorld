@@ -12,9 +12,8 @@
 	
 	<scm>
 		<!-- Set git reposirory -->
-		<connection>scm:https://github.com/aleksperovs/JavaHelloWorld.git</connection>
-		<url>https://github.com/aleksperovs/JavaHelloWorld</url>
-		<developerConnection>https://github.com/aleksperovs/JavaHelloWorld.git</developerConnection>
+		<connection>scm:git:https://github.com/aleksperovs/JavaHelloWorld.git</connection>
+		<developerConnection>scm:git:https://github.com/aleksperovs/JavaHelloWorld.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 	<build>
