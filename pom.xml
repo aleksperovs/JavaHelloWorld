@@ -13,7 +13,7 @@
 	<scm>
 		<!-- Set git reposirory -->
 		<connection>scm:https://github.com/aleksperovs/JavaHelloWorld.git</connection>
-		<url>https://github.com/aleksperovs/JavaHelloWorld.git</url>
+		<url>https://github.com/aleksperovs/JavaHelloWorld</url>
 		<developerConnection>https://github.com/aleksperovs/JavaHelloWorld.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
