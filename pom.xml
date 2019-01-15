@@ -17,18 +17,19 @@
 		<developerConnection>https://github.com/aleksperovs/JavaHelloWorld.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
-	
-	<plugins>	
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-release-plugin</artifactId>
-			<version>2.5.3</version>
-			<configuration>
-				<tagBase>https://github.com/aleksperovs/JavaHelloWorld/releases</tagBase>
-				<releaseProfiles>releases</releaseProfiles>
-			</configuration>
-		</plugin>
-	</plugins>
+	<build>
+		<plugins>	
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+				<configuration>
+					<tagBase>https://github.com/aleksperovs/JavaHelloWorld/releases</tagBase>
+					<releaseProfiles>releases</releaseProfiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 	
 	<profiles>
 		<profile>
