@@ -59,6 +59,7 @@
 	   </profile>
 	</profiles>
 	
+	<!--List of repositories for releases-->
 	<distributionManagement>
 		<repository>
 			<id>maven-releases</id>
