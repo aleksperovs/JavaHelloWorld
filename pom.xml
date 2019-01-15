@@ -2,7 +2,7 @@
 
     <groupId>com.alexpetrov</groupId>
     <artifactId>HelloWorld</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
 	
@@ -14,7 +14,7 @@
 		<!-- Set git reposirory -->
 		<connection>scm:git:https://github.com/aleksperovs/JavaHelloWorld.git</connection>
 		<developerConnection>scm:git:https://github.com/aleksperovs/JavaHelloWorld.git</developerConnection>
-		<tag>HelloWorld-1.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<build>
 		<plugins>	
